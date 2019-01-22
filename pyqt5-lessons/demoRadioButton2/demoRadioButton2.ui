@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="labelSelected">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>490</y>
+     <width>501</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="VBoxLayout">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>291</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Choose Your Shirt Size</string>
+    </property>
+    <property name="VBoxLayout" stdset="0">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonMedium">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+    <property name="VBoxLayout" stdset="0">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonLarge">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+    <property name="VBoxLayout" stdset="0">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonXL">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>XL</string>
+    </property>
+    <property name="VBoxLayout" stdset="0">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonXXL">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>XXL</string>
+    </property>
+    <property name="VBoxLayout" stdset="0">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="VBoxLayout_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>288</width>
+     <height>114</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Choose your Payment Method</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonDebitCard">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Debit / Creadit Card</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonNetBanking">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NetBanking</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonCashOnDelivery">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cash on Delivery</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

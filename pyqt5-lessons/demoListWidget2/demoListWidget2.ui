@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>740</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose the Diagnostic Tests</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTest">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>300</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selected Tests are</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetDiagnosis">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>390</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>Urine Analaysis $5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chest X Ray $100</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sugar Level Test $3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hemoglobin Test $7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Thyroid Stimulation Hormone Test $10</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QListWidget" name="listWidgetSelectedTests">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>350</y>
+     <width>390</width>
+     <height>140</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
